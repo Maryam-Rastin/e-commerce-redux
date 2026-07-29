@@ -166,10 +166,11 @@
   .singleProduct-wrapper {
     width: 95%;
     height: auto;
+    flex-direction: column;
   }
 
   .singleProduct-imageSection {
-    height: auto;
+    height: 280px;
   }
 
   .singleProduct-infoSection {
