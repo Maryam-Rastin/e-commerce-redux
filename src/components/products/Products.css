@@ -78,8 +78,9 @@
     padding: 0px;
     display: flex;
     justify-content: center;
+    width: 100%;
   }
   .product-container {
-    width: 90%;
+    padding: 0;
   }
 }
