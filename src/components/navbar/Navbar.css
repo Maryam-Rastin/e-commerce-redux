@@ -92,6 +92,12 @@
   .navbar-wrapper {
     padding: 10px 0px;
   }
+    .navbar-wrapper {
+    flex-wrap: wrap;
+  }
+  .navbar-input {
+    width: 90px;
+  }
 
   .navbar-language {
     display: none;

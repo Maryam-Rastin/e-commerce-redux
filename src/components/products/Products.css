@@ -4,15 +4,13 @@
 
 .products-container {
   padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px;
 }
 
 .product-container {
   padding-top: 10px;
-  margin: 5px;
-  min-width: 400px;
   height: 350px;
   display: flex;
   align-items: center;
