@@ -72,3 +72,11 @@
   background-color: cadetblue;
   transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+  .products-container {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+  }
+}
